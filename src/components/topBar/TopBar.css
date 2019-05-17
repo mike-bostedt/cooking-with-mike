@@ -1,0 +1,32 @@
+.TopBar-container {
+    position: sticky;
+    top: 0;
+    right: 0;
+    left: 0;
+    font-family: 'Waiting for the Sunrise', cursive;
+}
+
+.heading h1{
+    font-size: 6.2em;
+    margin: 0 0 0 0;
+    color: #4c566a;
+}
+
+.subheading {
+    font-size: 2em;
+    color: #2e3440;
+    font-family: 'Rubik', sans-serif;
+}
+
+.subheading a{ 
+    border: 1px solid #D8Dee9;
+    background: #eceff4;
+    border-radius: 10px;
+}
+
+.subheading input{
+    height: 40px;
+    border-radius: 10px;
+    padding: 0;
+    border: none;
+}
