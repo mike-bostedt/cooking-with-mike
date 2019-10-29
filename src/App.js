@@ -3,6 +3,8 @@ import TopBar from "./components/topBar/TopBar.js";
 import RecipeCard from "./components/RecipeCard/RecipeCard.js";
 import "./App.css";
 import * as serviceWorker from "./serviceWorker";
+import { GetRecipe } from "../src/database/functions";
+import RecipeUpdate from "./components/RecipeCard/RecipeCard";
 
 const {
   Stitch,
@@ -15,17 +17,6 @@ const stitchClient = Stitch.initializeDefaultAppClient(
 );
 
 const client = Stitch.defaultAppClient;
-let activeRecipe;
-
-client.callFunction("function0").then(result => {
-  console.log(result); // Output: 7
-  activeRecipe = result;
-  console.log(activeRecipe.recipeName);
-});
-
-const db = stitchClient
-  .getServiceClient(RemoteMongoClient.factory, "myRecipeDB")
-  .db("RecipeDB");
 
 stitchClient.auth
   .loginWithCredential(new AnonymousCredential())
@@ -39,20 +30,26 @@ stitchClient.auth
 class App extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { activeRecipe };
+    this.state = {
+      Recipe_Count: []
+    };
   }
-
+  componentDidMount() {}
   render() {
     return (
       <div className="App">
-        <div className="container">
-          <TopBar />
+        <div className="recipe-display">
+          {/*<TopBar />*/}
+          <div className="recipe-display__header">My most recent favorite:</div>
           <RecipeCard />
         </div>
+        <div className="more-recipes"></div>
       </div>
     );
   }
 }
+
+export { client };
 export default App;
 
 serviceWorker.unregister();

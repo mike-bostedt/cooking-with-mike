@@ -1,8 +1,28 @@
 @import url('https://fonts.googleapis.com/css?family=Waiting+for+the+Sunrise');
 @import url('https://fonts.googleapis.com/css?family=Rubik');
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 .App {
+  margin: 0;
+  width: 100%;
+}
+
+.recipe-display__header {
+  color: #807F7D;
   text-align: center;
+  font-size: 24px;
+}
+
+.more-recipes {
+  width: 750px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  text-align: center;
+}
+
+.more-recipes a {
+  
 }
 
 
