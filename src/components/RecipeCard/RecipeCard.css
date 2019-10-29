@@ -1,36 +1,94 @@
+.container {
+   margin-left: 260px;
+}
 
+.sidebar {
+    position: fixed;
+    left: 0;
+    width: 260px;
+    border-right: solid 2px rgba(79, 95, 79, 1);
+    height: 100%;
+}
 
+.sidebar__logo {
+    margin-bottom: 20px;
+}
+
+.sidebar__logo span{
+    display: block;
+    color: #0095A8;
+    font-size: 40px;
+    padding-left: 15px;
+    line-height: 40px;
+}
+
+.sidebar__recent {
+    margin-bottom: 10px;
+}
+
+.sidebar__recent__list {
+    color: #8090B0;
+    font-size: 20px;
+    display: block;
+    line-height: 20px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    cursor: pointer;
+}
+
+.sidebar__recent__label {
+    color: #F49725;
+    padding-left: 3px;
+    
+}
+
+.sidebar__recipe__list__label {
+    color: #E64100;
+    padding-left: 3px;
+}
+
+.sidebar__recipe__list span {
+    color: #8090B0;
+    font-size: 20px;
+    display: block;
+    line-height: 20px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+}
+
+.sidebar__recipe__list span:hover {
+    color: #80A1E3;
+    cursor: pointer;
+}
 
 .recipe-card-container {
    font-family: Rubik;
-   border: solid 2px rgba(79, 95, 79, 1);
-   width: 750px;
-   margin: 0 auto;
-   border-radius: 20px;
-   padding: 20px;
+   margin-left: 300px;
+   padding-left: 40px;
+   margin: auto;
 }
-
-.recipe-heading {
-   color: #4c566a;
-   font-size: 26px;
-   
-}
-
-
 
 .recipe-heading {
     color: #0095A8;
+    font-size: 36px;
+    padding: 10px 0;
 }
 
-.recipe-heading span {
-    font-size: 20px;
-    display: block;
+.recipe-contents ul {
+    margin: 0;
+    padding: 0;
+}
+
+.recipe-contents ol {
+    padding-left: 20px;
+    margin: 0;
 }
 
 #Ingredients {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-row-gap: 10px;
+    row-gap: 10px;
+    column-gap: 10px;
     color: #807F7D;
 }
 
@@ -40,9 +98,14 @@
     font-size: 22px;
 }
 
+#Ingredients li:hover {
+    cursor: pointer;
+}
+
 #Instructions li {
     margin: 10px 0;
     color: #807F7D;
+    font-size: 18px;
 }
 
 .Line-Through-true {
@@ -93,4 +156,8 @@
   padding-left: 5px;
   font-style: italic;
   font-size: 18px;
+}
+
+#Instructions {
+    margin-top: 40px;
 }

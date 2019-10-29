@@ -3,8 +3,6 @@ import TopBar from "./components/topBar/TopBar.js";
 import RecipeCard from "./components/RecipeCard/RecipeCard.js";
 import "./App.css";
 import * as serviceWorker from "./serviceWorker";
-import { GetRecipe } from "../src/database/functions";
-import RecipeUpdate from "./components/RecipeCard/RecipeCard";
 
 const {
   Stitch,
@@ -39,8 +37,6 @@ class App extends React.Component {
     return (
       <div className="App">
         <div className="recipe-display">
-          {/*<TopBar />*/}
-          <div className="recipe-display__header">My most recent favorite:</div>
           <RecipeCard />
         </div>
         <div className="more-recipes"></div>

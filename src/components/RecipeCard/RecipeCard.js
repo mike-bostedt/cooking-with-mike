@@ -39,26 +39,22 @@ class RecipeCard extends React.Component {
           recipe_number: {
             $numberInt: "2"
           },
-          recipe_title: "temp",
+          recipe_title: "",
           ingredients_array: [
             {
-              quantity: "5 temp",
-              ingredient: "salmon"
+              quantity: "",
+              ingredient: ""
             },
             {
-              quantity: "5 temp",
-              ingredient: "olive oil"
+              quantity: "",
+              ingredient: ""
             },
             {
-              quantity: "1/4 cup",
-              ingredient: "brown sugar"
+              quantity: "",
+              ingredient: ""
             }
           ],
-          instructions_array: [
-            "temp. Line a baking sheet with aluminum foil. Lay the salmon on top and sprinkle with salt and pepper. Fold up the sides of the aluminum foil around the salmon.",
-            "In a small bowl whisk together the olive oil, brown sugar, soy sauce, garlic, lemon juice, salt, and pepper. Pour the glaze over the salmon. Top the salmon with aluminum foil and seal.",
-            "  Bake for 20-25 minutes or until salmon is cooked throughout. Take the foil off of the top and baste the salmon with the sauce in the foil. Broil for 3-5 minutes or until brown and caramelized. Garnish with lemon slices and chopped parsley if desired."
-          ]
+          instructions_array: ["", "", ""]
         }
       ],
       currentRecipeNumber: 2
@@ -73,31 +69,65 @@ class RecipeCard extends React.Component {
       .then(current_recipe => this.setState({ current_recipe }));*/
 
     client
-      .callFunction("testfunction", 2)
+      .callFunction("testfunction", [2])
       .then(current_recipe => this.setState({ current_recipe }));
   }
 
-  onRecipeUpdate = newRecipeNumber => {
+  onRecipeChange = newRecipeNumber => {
     client
-      .callFunction("testfunction", 2)
+      .callFunction("testfunction", [newRecipeNumber])
       .then(current_recipe => this.setState({ current_recipe }));
   };
 
   render() {
     return (
-      <div className="recipe-card-container">
-        <div className="recipe-heading">
-          {this.state.current_recipe[0].recipe_title}
+      <div className="container">
+        <div className="sidebar">
+          <div className="sidebar__logo">
+            <span>Cooking</span>
+            <span>With</span>
+            <span>Mike</span>
+          </div>
+          <div className="sidebar__recent">
+            <div className="sidebar__recent__label">Recently added</div>
+
+            <div className="sidebar__recent__list">
+              <span onClick={this.onRecipeChange.bind(this, 5)}>
+                Bloody Mary Mix
+              </span>
+            </div>
+          </div>
+          <div className="sidebar__recipe__list">
+            <div className="sidebar__recipe__list__label">Recipe list</div>
+            <span onClick={this.onRecipeChange.bind(this, 1)}>
+              Sweet Garlic Salmon
+            </span>
+            <span onClick={this.onRecipeChange.bind(this, 3)}>
+              Tri-Tip Marinade
+            </span>
+            <span onClick={this.onRecipeChange.bind(this, 2)}>
+              Cowboy Caviar
+            </span>
+            <span onClick={this.onRecipeChange.bind(this, 4)}>
+              Sticky Thai Peanut Orange Chicken
+            </span>
+          </div>
         </div>
-        <div className="recipe-contents">
-          <IngredientList
-            ingredients_array={this.state.current_recipe[0].ingredients_array}
-          />
-          <Instructions
-            instructions_array={this.state.current_recipe[0].instructions_array}
-          />
+        <div className="recipe-card-container">
+          <div className="recipe-heading">
+            {this.state.current_recipe[0].recipe_title}
+          </div>
+          <div className="recipe-contents">
+            <IngredientList
+              ingredients_array={this.state.current_recipe[0].ingredients_array}
+            />
+            <Instructions
+              instructions_array={
+                this.state.current_recipe[0].instructions_array
+              }
+            />
+          </div>
         </div>
-        <span>tester</span>
       </div>
     );
   }
