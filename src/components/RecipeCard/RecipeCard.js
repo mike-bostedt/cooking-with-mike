@@ -1,7 +1,6 @@
 import React from "react";
 import "./RecipeCard.css";
-import { client } from "../../App";
-
+import * as serviceWorker from "../../serviceWorker";
 import IngredientList from "./IngredientList";
 
 function lineThrough() {
@@ -23,8 +22,6 @@ function Instructions(props) {
     return <div>loading...</div>;
   }
 }
-
-let currentRecipeNumber = 2;
 
 class RecipeCard extends React.Component {
   constructor(props) {
@@ -57,73 +54,25 @@ class RecipeCard extends React.Component {
           instructions_array: ["", "", ""]
         }
       ],
-      currentRecipeNumber: 2
+      recipe_path:
+        "https://webhooks.mongodb-stitch.com/api/client/v2.0/app/cooking_with_mike-zkibw/service/http/incoming_webhook/getTriTip"
     };
   }
-
-  componentDidMount() {
-    /*fetch(
-      "https://webhooks.mongodb-stitch.com/api/client/v2.0/app/cooking_with_mike-zkibw/service/http/incoming_webhook/Get_Recipe?3"
-    )
-      .then(res => res.json())
-      .then(current_recipe => this.setState({ current_recipe }));*/
-
-    client
-      .callFunction("testfunction", [2])
-      .then(current_recipe => this.setState({ current_recipe }));
-  }
-
-  onRecipeChange = newRecipeNumber => {
-    client
-      .callFunction("testfunction", [newRecipeNumber])
-      .then(current_recipe => this.setState({ current_recipe }));
-  };
 
   render() {
     return (
       <div className="container">
-        <div className="sidebar">
-          <div className="sidebar__logo">
-            <span>Cooking</span>
-            <span>With</span>
-            <span>Mike</span>
-          </div>
-          <div className="sidebar__recent">
-            <div className="sidebar__recent__label">Recently added</div>
-
-            <div className="sidebar__recent__list">
-              <span onClick={this.onRecipeChange.bind(this, 5)}>
-                Bloody Mary Mix
-              </span>
-            </div>
-          </div>
-          <div className="sidebar__recipe__list">
-            <div className="sidebar__recipe__list__label">Recipe list</div>
-            <span onClick={this.onRecipeChange.bind(this, 1)}>
-              Sweet Garlic Salmon
-            </span>
-            <span onClick={this.onRecipeChange.bind(this, 3)}>
-              Tri-Tip Marinade
-            </span>
-            <span onClick={this.onRecipeChange.bind(this, 2)}>
-              Cowboy Caviar
-            </span>
-            <span onClick={this.onRecipeChange.bind(this, 4)}>
-              Sticky Thai Peanut Orange Chicken
-            </span>
-          </div>
-        </div>
         <div className="recipe-card-container">
           <div className="recipe-heading">
-            {this.state.current_recipe[0].recipe_title}
+            {this.props.Current_Recipe[0].recipe_title}
           </div>
           <div className="recipe-contents">
             <IngredientList
-              ingredients_array={this.state.current_recipe[0].ingredients_array}
+              ingredients_array={this.props.Current_Recipe[0].ingredients_array}
             />
             <Instructions
               instructions_array={
-                this.state.current_recipe[0].instructions_array
+                this.props.Current_Recipe[0].instructions_array
               }
             />
           </div>
@@ -134,3 +83,5 @@ class RecipeCard extends React.Component {
 }
 
 export default RecipeCard;
+
+serviceWorker.unregister();

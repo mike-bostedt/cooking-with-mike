@@ -1,5 +1,102 @@
-{"_id":{"$oid":"5cdb55a4e37a8090dfe13b21"},"owner_id":"5cdb4b8a03501840d5fc94ad","recipe_number":{"$numberInt":"1"},"recipe_title":"Sweet Garlic Salmon","ingredients_array":[{"whole":"2","numerator":"","denominator":"","measurement":"lbs","ingredient":"salmon","descriptor":""},{"whole":"2","numerator":"","denominator":"","measurement":"Tbsp","ingredient":"olive oil","descriptor":""},{"whole":"","numerator":"1","denominator":"4","measurement":"cup","ingredient":"brown sugar","descriptor":""},{"whole":"","numerator":"1","denominator":"4","measurement":"cup","ingredient":"soy sauce","descriptor":""},{"whole":"3","numerator":"","denominator":"","measurement":"cloves","ingredient":"garlic","descriptor":"minced"},{"whole":"","numerator":"","denominator":"","measurement":"","ingredient":"juice of one lemon","descriptor":""},{"whole":"1","numerator":"","denominator":"","measurement":"tsp","ingredient":"salt","descriptor":""},{"whole":"","numerator":"1","denominator":"2","measurement":"tsp","ingredient":"pepper","descriptor":""},{"whole":"","numerator":"","denominator":"","measurement":"","ingredient":"garnish with sliced lemons and chopped parsley if desired","descriptor":""}],"instructions_array":["Preheat oven to 350 degrees. Line a baking sheet with aluminum foil. Lay the salmon on top and sprinkle with salt and pepper. Fold up the sides of the aluminum foil around the salmon.","In a small bowl whisk together the olive oil, brown sugar, soy sauce, garlic, lemon juice, salt, and pepper. Pour the glaze over the salmon. Top the salmon with aluminum foil and seal.","Bake for 20-25 minutes or until salmon is cooked throughout. Take the foil off of the top and baste the salmon with the sauce in the foil. Broil for 3-5 minutes or until brown and caramelized. Garnish with lemon slices and chopped parsley if desired."]}
-{"_id":{"$oid":"5d03fdd41c9d44000006233f"},"owner_id":"5cdb4b8a03501840d5fc94ad","recipe_number":{"$numberInt":"2"},"recipe_title":"Cowboy Caviar","ingredients_array":[{"whole":"2","numerator":"","denominator":"","measurement":"Tbsp","ingredient":"red wine vinegar","descriptor":""},{"whole":"1","numerator":"1","denominator":"2","measurement":"tsp","ingredient":"hot sauce","descriptor":""},{"whole":"1","numerator":"1","denominator":"2","measurement":"tsp","ingredient":"salad oil","descriptor":""},{"whole":"1","numerator":"","denominator":"","measurement":"clove","ingredient":"garlic","descriptor":"minced"},{"whole":"","numerator":"1","denominator":"8","measurement":"tsp","ingredient":"pepper","descriptor":""},{"whole":"1","numerator":"","denominator":"","measurement":"","ingredient":"avocado","descriptor":"firm-ripe"},{"whole":"15","numerator":"","denominator":"","measurement":"oz","ingredient":"black beans","descriptor":""},{"whole":"11","numerator":"","denominator":"","measurement":"oz","ingredient":"corn kernels","descriptor":""},{"whole":"","numerator":"2","denominator":"3","measurement":"cup","ingredient":"green onions","descriptor":"thinly sliced"},{"whole":"","numerator":"2","denominator":"3","measurement":"cup","ingredient":"fresh cilantro","descriptor":"chopped"},{"whole":"","numerator":"1","denominator":"2","measurement":"lb","ingredient":"Roma tomatoes","descriptor":"coarsely chopped"},{"whole":"","numerator":"","denominator":"","measurement":"","ingredient":"salt","descriptor":"to taste"},{"whole":"2","numerator":"","denominator":"","measurement":"cup","ingredient":"cabbage","descriptor":"finely shredded"}],"instructions_array":["In a large bowl, mix vinegar, hot sauce, oil, garlic, and pepper. Peel, pit, and cut avocado into 1/2-inch cubes. Add to vinegar mixture and mix gently to coat.","Drain and rinse peas and corn. Add peas, corn, onions, cilantro, and tomatoes to avocado; mix gently to coat. Add salt to taste. Serve pea mixture with chips as an appetizer, or add cabbage and mix to make a salad."]}
-{"_id":{"$oid":"5db21d9333b15ad7a4414ccf"},"owner_id":"5cdb4b8a03501840d5fc94ad","recipe_number":{"$numberInt":"3"},"recipe_title":"Tri-tip Marinade","ingredients_array":[{"whole":"1","numerator":"","denominator":"","measurement":"cup","ingredient":"salad oil","descriptor":""},{"whole":"","numerator":"3","denominator":"4","measurement":"cup","ingredient":"soy sauce","descriptor":""},{"whole":"","numerator":"1","denominator":"4","measurement":"cup","ingredient":"Worsestershire","descriptor":""},{"whole":"","numerator":"1","denominator":"2","measurement":"cup","ingredient":"red wine vinegar","descriptor":""},{"whole":"","numerator":"1","denominator":"2","measurement":"cup","ingredient":"lemon juice","descriptor":""},{"whole":"2","numerator":"","denominator":"","measurement":"Tbsp","ingredient":"dry mustard","descriptor":""},{"whole":"2","numerator":"1","denominator":"2","measurement":"tsp","ingredient":"salt","descriptor":""},{"whole":"1","numerator":"","denominator":"","measurement":"Tbsp","ingredient":"pepper","descriptor":""},{"whole":"1","numerator":"1","denominator":"2","measurement":"dried parsley","ingredient":"","descriptor":""},{"whole":"2","numerator":"","denominator":"","measurement":"cloves","ingredient":"garlic","descriptor":"crushed"}],"instructions_array":["Mix all ingredients together. Marinate tri-tip for 5-6 hours or overnight. Makes enough marinade for at least 2 tri-tips."]}
-{"_id":{"$oid":"5db879c61c9d4400003c55de"},"owner_id":"5cdb4b8a03501840d5fc94ad","recipe_number":{"$numberInt":"4"},"recipe_title":"Sticky Thai Peanut Orange Chicken","ingredients_array":[{"whole":"6","numerator":"","denominator":"","measurement":"","ingredient":" boneless skinless chicken thighs","descriptor":""},{"whole":"","numerator":"1","denominator":"3","measurement":"cup","ingredient":"soy sauce","descriptor":""},{"whole":"","numerator":"1","denominator":"2","measurement":"cup","ingredient":"orange juice","descriptor":""},{"whole":"","numerator":"1","denominator":"2","measurement":"cup","ingredient":"orange marmalade","descriptor":""},{"whole":"2","numerator":"","denominator":"","measurement":"Tbsp","ingredient":"ketchup","descriptor":""},{"whole":"","numerator":"1","denominator":"3","measurement":"cup","ingredient":"crunchy peanut butter","descriptor":""},{"whole":"1","numerator":"","denominator":"","measurement":"Tbsp","ingredient":"rice vinegar","descriptor":""},{"whole":"1","numerator":"","denominator":"","measurement":"Tbsp","ingredient":"fish sauce","descriptor":""},{"whole":"3","numerator":"","denominator":"","measurement":"Tbsp","ingredient":"brown sugar","descriptor":""},{"whole":"1","numerator":"","denominator":"","measurement":"tsp","ingredient":"Srirasha/asian hot chili sauce","descriptor":"to taste"},{"whole":"1","numerator":"1","denominator":"2","measurement":"Tbsp","ingredient":"cornstarch","descriptor":""},{"whole":"1","numerator":"","denominator":"","measurement":"Tbsp","ingredient":"olive oil","descriptor":""},{"whole":"1","numerator":"","denominator":"","measurement":"tsp","ingredient":"ground ginger","descriptor":""},{"whole":"1","numerator":"","denominator":"","measurement":"tsp","ingredient":"garlic powder","descriptor":""},{"whole":"","numerator":"1","denominator":"2","measurement":"tsp","ingredient":"onion powder","descriptor":""},{"whole":"","numerator":"1","denominator":"2","measurement":"tsp","ingredient":"paprika","descriptor":""},{"whole":"","numerator":"1","denominator":"2","measurement":"tsp","ingredient":"ground cumin","descriptor":""},{"whole":"","numerator":"1","denominator":"2","measurement":"tsp","ingredient":"salt","descriptor":""},{"whole":"","numerator":"1","denominator":"4","measurement":"tsp","ingredient":"pepper","descriptor":""},{"whole":"","numerator":"","denominator":"","measurement":"","ingredient":"chopped roasted peanuts","descriptor":"garnish"},{"whole":"","numerator":"","denominator":"","measurement":"","ingredient":"green onions","descriptor":"garnish"},{"whole":"","numerator":"","denominator":"","measurement":"","ingredient":"orange zest","descriptor":"garnish"}],"instructions_array":["In a medium bowl, whisk together sauce ingredients: soy sauce, orange juice, marmalade, katchup, peanut butter, rice vinegar, fish sauce, brown sugar, Sriracha/asian chili sauce, cornstarch. Set aside.","Preheat oven to 400F degrees.","In a small bowl, mix together rub ingredients: olive oil, ground ginger, garlic powder, onion powder, paprika, ground cumin, salt, pepper. Rub all over chicken.","Melt 1 tablespoon butter in a large oven proof skillet over medium high heat. Add chicken and sear 2-3 minutes per side or until browned. Remove chicken to plate.","Add sauce and simmer 1 minute, scraping sides of pan to deglaze. Add chicken back to skillet, and spoon some sauce over chicken. Bake 8- 12 minutes or until chicken is cooked through depending on thickness.","Garnish with desired toppings and serve over rice."]}
-{"_id":{"$oid":"5db88e991c9d4400009cc9da"},"owner_id":"5cdb4b8a03501840d5fc94ad","recipe_number":{"$numberInt":"5"},"recipe_title":"Bloody Mary Chili","ingredients_array":[{"whole":"1","numerator":"","denominator":"","measurement":"Tbsp","ingredient":"olive oil","descriptor":""},{"whole":"1","numerator":"","denominator":"","measurement":"","ingredient":"red onion","descriptor":"finely chopped"},{"whole":"1","numerator":"","denominator":"","measurement":"cup","ingredient":"celery","descriptor":"chopped"},{"whole":"1","numerator":"","denominator":"","measurement":"cup","ingredient":"assorted sweet bell peper","descriptor":"chopped"},{"whole":"1","numerator":"1","denominator":"2","measurement":"lb", "ingredient": "ground turkey", "descriptor": "" }, { "whole": "", "numerator": "", "denominator": "", "measurement": "", "ingredient": "salt", "descriptor": "" }, { "whole": "", "numerator": "", "denominator": "", "measurement": "", "ingredient": "pepper", "descriptor": "" }, { "whole": "2", "numerator": "", "denominator": "", "measurement": "cloves", "ingredient": "garlic", "descriptor": "minced" }, { "whole": "2", "numerator": "", "denominator": "", "measurement": "Tbsp", "ingredient": "fresh ginger", "descriptor": "grated" }, { "whole": "2", "numerator": "", "denominator": "", "measurement": "Tbsp", "ingredient": "tomato paste", "descriptor": "" }, { "whole": "4", "numerator": "", "denominator": "", "measurement": "cups", "ingredient": "Bloody Mary Mix", "descriptor": "" }, { "whole": "15", "numerator": "", "denominator": "", "measurement": "oz", "ingredient": "cannellini beans", "descriptor": "rinced, drained" }, { "whole": "15", "numerator": "", "denominator": "", "measurement": "oz", "ingredient": "pinto beans", "descriptor": "rinced, drained" }, { "whole": "15", "numerator": "", "denominator": "", "measurement": "oz", "ingredient": "black beans", "descriptor": "rinced, drained" }, { "whole": "1", "numerator": "1", "denominator": "2", "measurement": "cups", "ingredient": "low-sodium chicken broth", "descriptor": "" }, { "whole": "2", "numerator": "", "denominator": "", "measurement": "tsp", "ingredient": "smoked paprika", "descriptor": "" }, { "whole": "1", "numerator": "", "denominator": "", "measurement": "tsp", "ingredient": "ground cumin", "descriptor": "" }, { "whole": "2", "numerator": "", "denominator": "", "measurement": "Tbsp", "ingredient": "cilantro", "descriptor": "chopped" }, { "whole": "1", "numerator": "", "denominator": "", "measurement": "cup", "ingredient": "green onions", "descriptor": "chopped" }, { "whole": "", "numerator": "", "denominator": "", "measurement": "", "ingredient": "green onion", "descriptor": "garnish" }, { "whole": "", "numerator": "", "denominator": "", "measurement": "", "ingredient": "shredded chedder", "descriptor": "garnish" } ], "instructions_array": [ "Heat oil in a large skillet over medium-high. Add onion, celery, and pepper and cook until they begin to soften, about 4 minutes.", "Add ground turkey and cook, stirring occasionally, until the turkey is golden (it doesn’t have to be completely cooked through at this point). ", "Season with salt and pepper, then stir in garlic, ginger, and tomato paste and cook until fragrant, about 2 minutes. Transfer mixture to a slow cooker.", "To the slow cooker, add the Bloody Mary mix, beans, chicken broth, paprika, cumin, cilantro, and green onion. Cook on high for 4 hours, until the chili has thickened.", "Check for seasoning and season with salt and pepper to taste. Garnish with more green onion and cheese." ]}
+{
+  "_id": { "$oid": "5db9db61b8c70fdc84ab27b4" },
+  "owner_id": "5cdb4b8a03501840d5fc94ad",
+  "recipe_number": { "$numberInt": "8" },
+  "recipe_title": "Salisbury Steak, Onion Gravy",
+  "ingredients_array": [
+    {
+      "whole": "10.5",
+      "numerator": "",
+      "denominator": "",
+      "measurement": "oz",
+      "ingredient": "condensed onion soup",
+      "descriptor": ""
+    },
+    {
+      "whole": "1",
+      "numerator": "1",
+      "denominator": "2",
+      "measurement": "lb",
+      "ingredient": "ground beef",
+      "descriptor": ""
+    },
+    {
+      "whole": "",
+      "numerator": "1",
+      "denominator": "2",
+      "measurement": "cup",
+      "ingredient": "dry fine bread crumbs",
+      "descriptor": ""
+    },
+    {
+      "whole": "1",
+      "numerator": "",
+      "denominator": "",
+      "measurement": "",
+      "ingredient": "egg",
+      "descriptor": "slightly beaten"
+    },
+    {
+      "whole": "",
+      "numerator": "1",
+      "denominator": "4",
+      "measurement": "tsp",
+      "ingredient": "salt",
+      "descriptor": ""
+    },
+    {
+      "whole": "1",
+      "numerator": "",
+      "denominator": "",
+      "measurement": "dash",
+      "ingredient": "pepper",
+      "descriptor": ""
+    },
+    {
+      "whole": "1",
+      "numerator": "",
+      "denominator": "",
+      "measurement": "Tbsp",
+      "ingredient": "flour",
+      "descriptor": ""
+    },
+    {
+      "whole": "",
+      "numerator": "1",
+      "denominator": "4",
+      "measurement": "cup",
+      "ingredient": "katchup",
+      "descriptor": ""
+    },
+    {
+      "whole": "",
+      "numerator": "1",
+      "denominator": "4",
+      "measurement": "cup",
+      "ingredient": "water",
+      "descriptor": ""
+    },
+    {
+      "whole": "1",
+      "numerator": "",
+      "denominator": "",
+      "measurement": "tsp",
+      "ingredient": "Worcestershire",
+      "descriptor": ""
+    },
+    {
+      "whole": "",
+      "numerator": "1",
+      "denominator": "2",
+      "measurement": "tsp",
+      "ingredient": "prepared mustard",
+      "descriptor": ""
+    }
+  ],
+  "instructions_array": [
+    "In bowl, combine 1/3 cup soup with beef, crumbs, egg, salt, pepper. Mix and shape into oval patties.",
+    "In skillet, brown patties; pour off fat.",
+    "Blend remaining ingredients with remaining soup, add to skillet.",
+    "Cover skillet and cook over low heat 20 minutes or until done, stiring occasionally."
+  ]
+}
