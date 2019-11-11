@@ -12,7 +12,7 @@ function Instructions(props) {
     return (
       <ol id="Instructions">
         {props.instructions_array.map(instruction => (
-          <li strikethrough="false" className={lineThrough}>
+          <li strikethrough="false" className={lineThrough} key={Math.random()}>
             {instruction}
           </li>
         ))}
@@ -80,6 +80,7 @@ class RecipeCard extends React.Component {
       </div>
     );
   }
+  npm;
 }
 
 export default RecipeCard;

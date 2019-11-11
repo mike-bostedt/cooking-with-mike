@@ -18,8 +18,11 @@
   top: 50%;
 }
 
-.sidebar__show-hide__icon {
-
+.sidebar__scroll-fix {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
 }
 
 .sidebar__container {
@@ -30,6 +33,16 @@
   border-right: solid 2px rgba(79, 95, 79, 1);
   height: 100%;
   background-color: #EDEDED;
+  top: 0;
+  bottom: 0;
+  left: 0;
+ overflow: scroll;
+ scrollbar-width: none;
+}
+
+.sidebar__container::-webkit-scrollbar {
+  width: 0px;
+    background: transparent;
 }
 
 .sidebar__logo {
@@ -89,6 +102,7 @@
   line-height: 42px;
   font-size: 17px;
   font-weight: 300;
+  padding-left: 10px;
 }
 
 /*--------------Recently Added------------------------*/
@@ -125,6 +139,7 @@
   line-height: 42px;
   font-size: 17px;
   font-weight: 300;
+  padding-left: 10px;
 }
 
 
@@ -158,6 +173,7 @@
   line-height: 42px;
   font-size: 17px;
   font-weight: 300;
+  padding-left: 10px;
 }
 
 
@@ -191,6 +207,7 @@
   line-height: 42px;
   font-size: 17px;
   font-weight: 300;
+  padding-left: 10px;
 }
 
 
@@ -224,6 +241,7 @@
   line-height: 42px;
   font-size: 17px;
   font-weight: 300;
+  padding-left: 10px;
 }
 
 /*--------------Fish------------------------*/
@@ -256,12 +274,17 @@
   line-height: 42px;
   font-size: 17px;
   font-weight: 300;
+  padding-left: 10px;
 }
 
 /*----------------Veggies------------------------*/
 
 .sidebar__dropdown__veggies {
   background-color: #5AB38D;
+}
+
+.sidebar__dropdown__veggies ul {
+  display: none;
 }
 
 .sidebar__dropdown__veggies li:nth-child(odd) {
@@ -286,6 +309,7 @@
   line-height: 42px;
   font-size: 17px;
   font-weight: 300;
+  padding-left: 10px;
 }
 
 
@@ -317,18 +341,25 @@
   list-style-type: none;
 }
 
-
-
-
-
-
-.icons8 {
-  position: absolute;
-  bottom: 0;
-  text-align: center;
-  width: 100%;
+.isBakingShowing li {
+  height: 42px;
+  line-height: 42px;
+  font-size: 17px;
+  font-weight: 300;
+  padding-left: 10px;
 }
 
-.icons8 a{
+
+
+/*--------------icon8 footer as part of usage agreement. ------------------------*/
+
+.icons8 {
+  
+  text-align: center;
+  width: 260px;
+ 
+}
+
+.icons8 a {
   text-decoration: none;
 }

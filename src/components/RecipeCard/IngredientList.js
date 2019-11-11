@@ -17,6 +17,7 @@ function IngredientList(props) {
             measurement={ingredient.measurement}
             ingredient={ingredient.ingredient}
             descriptor={ingredient.descriptor}
+            key={Math.random()}
           />
         ))}
       </ul>
