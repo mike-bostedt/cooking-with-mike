@@ -226,9 +226,11 @@ class App extends React.Component {
                   <span className="sidebar__heading">Fish</span>
                   <img className="sidebar__icon" src={fishIcon} alt="" />
                 </div>
-                <ul
-                  className={this.state.isFishShowing && "isFishShowing"}
-                ></ul>
+                <ul className={this.state.isFishShowing && "isFishShowing"}>
+                  <li onClick={this.getWebhook} id={"getSweetGarlicSalmon"}>
+                    Sweet Garlic Salmon
+                  </li>
+                </ul>
               </div>
               {/*--------------Veggies------------------------*/}
               <div className="sidebar__dropdown__veggies">
@@ -245,7 +247,11 @@ class App extends React.Component {
                 </div>
                 <ul
                   className={this.state.isVeggiesShowing && "isVeggiesShowing"}
-                ></ul>
+                >
+                  <li onClick={this.getWebhook} id={"getCowboyCaviar"}>
+                    Cowboy Caviar
+                  </li>
+                </ul>
               </div>
               {/*--------------Baking------------------------*/}
               <div className="sidebar__dropdown__baking">
