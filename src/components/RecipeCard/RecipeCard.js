@@ -1,6 +1,5 @@
 import React from "react";
 import "./RecipeCard.css";
-import * as serviceWorker from "../../serviceWorker";
 import IngredientList from "./IngredientList";
 
 function lineThrough() {
@@ -84,5 +83,3 @@ class RecipeCard extends React.Component {
 }
 
 export default RecipeCard;
-
-serviceWorker.unregister();

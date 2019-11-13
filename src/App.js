@@ -1,7 +1,7 @@
 import React from "react";
 import RecipeCard from "./components/RecipeCard/RecipeCard.js";
 import "./App.css";
-import * as serviceWorker from "./serviceWorker";
+
 import recentIcon from "./icons/icons8-new-50.png";
 import featuredIcon from "./icons/icons8-star-50.png";
 import beefIcon from "./icons/icons8-cow-50.png";
@@ -13,8 +13,6 @@ import bakingIcon from "./icons/icons8-cute-cake-50.png";
 import leftIcon from "./icons/icons8-chevron-left-50.png";
 import rightIcon from "./icons/icons8-chevron-right-50.png";
 import { Stitch, AnonymousCredential } from "mongodb-stitch-browser-sdk";
-
-Stitch.initializeDefaultAppClient("cooking_with_mike-zkibw");
 
 class App extends React.Component {
   constructor(props) {
@@ -291,5 +289,3 @@ class App extends React.Component {
 }
 
 export default App;
-
-serviceWorker.unregister();
