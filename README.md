@@ -1,6 +1,6 @@
 # Cooking with Mike
 
-This project is my personal cookbook.
+This project is my personal cookbook. Currently hosted here: https://cookingwithmike.netlify.com/.
 
 ## Motivation
 
