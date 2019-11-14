@@ -12,7 +12,7 @@ This was build using React and MongoDB Stitch.
 
 ## Features
 
--IDE inspired coloring used for recipe display. /br
+-IDE inspired coloring used for recipe display.
 -Click to cross out ingredients.
 
 ## Roadmap
