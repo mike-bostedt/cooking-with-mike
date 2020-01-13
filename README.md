@@ -23,7 +23,7 @@ This was build using React and MongoDB Stitch.
 -Pre-set timers for each recipe.  
 -Optional 3 column layout.  
 
-### 2020
+### 2021
 -Alexa ingegration.
 
 ## License
